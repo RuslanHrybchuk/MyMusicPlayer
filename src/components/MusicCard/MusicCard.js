@@ -14,7 +14,7 @@ function MusicCard(props) {
                 backgroundRepeat: 'no-repeat'
             }}
         >
-            <p className="song-nametag"></p>
+            <p className="song-nametag">{nametag}</p>
             <p className="song-author"></p>
             <p className="song-duration"></p>
         </div>
