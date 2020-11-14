@@ -6,9 +6,9 @@ function Footer(props) {
     return (
         <div className='footer-wrapper'>
             <div className='play-buttons'>
-                <div className='previousTrack button'><FaAngleLeft color='black' size='24px'/></div>
-                <div className='play button'><FaPlay color='black' size='18px' /></div>
-                <div className='nextTrack button'><FaAngleRight color='black' size='24px'/></div>
+                <div className='previousTrack button'><FaAngleLeft color='#CACACA' size='24px'/></div>
+                <div className='play button'><FaPlay color='#D3D3D3' size='18px' /></div>
+                <div className='nextTrack button'><FaAngleRight color='#CACACA' size='24px'/></div>
             </div>
             <div className='timeline'>
                 <div className='playhead'></div>
