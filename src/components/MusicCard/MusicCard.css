@@ -24,32 +24,33 @@
     margin-top: 15px;
     margin-bottom: 5px ;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    color: #f2f2f2;
-    text-shadow: #ff0000 0px 0px 15px, #cc0066 5px 0px 5px, #cc0066 -5px 0px 5px, #cc0066 0px 3px 5px, #cc0066 0px -3px 5px, #cc0066 10px 0px 10px, #cc0066 -10px 0px 10px, #cc0066 0px 10px 10px, #cc0066 0px -10px 10px, #cc0066 0px 0px 20px, #cc0066 0px 0px 30px, #000 0px 0px 50px;
-}
+    color: #ECECEC;
+    text-shadow: #ff0000 0 0 5px, #B00000 3px 0 3px, #B00000 -3px 0 3px, #B00000 0 3px 5px, #B00000 0 -3px 5px, #333 10px 0 10px, #333 -10px 0 10px, #333 0 10px 10px, #333 0 -10px 10px, #333 0 0 15px;}
 
 .song-author {
     margin-top: 0;
     text-align: center;
-    font-size: 1rem;
-    color: #f2f2f2;
-    text-shadow: #ff0000 0px 0px 15px, #cc0066 5px 0px 5px, #cc0066 -5px 0px 5px, #cc0066 0px 3px 5px, #cc0066 0px -3px 5px, #000 10px 0px 10px, #000 -10px 0px 10px, #000 0px 10px 10px, #000 0px -10px 10px, #000 0px 0px 20px, #000 0px 0px 30px;
+    font-size: 0.9rem;
+    color: #ECECEC;
+    text-shadow: #B00000 0 0 15px, #B00000 5px 0 5px, #B00000 -5px 0 5px, #B00000 0 3px 5px, #B00000 0 -3px 5px, #333 10px 0 10px, #333 -10px 0 10px, #333 0 10px 10px, #333 0 -10px 10px, #333 0 0 15px;
 }
 
 .song-duration {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5px;
     text-align: center;
-    font-size: 1rem;
-    color: #f2f2f2;
-    text-shadow: #ff0000 0px 0px 15px, #cc0066 5px 0px 5px, #cc0066 -5px 0px 5px, #cc0066 0px 3px 5px, #cc0066 0px -3px 5px, #000 10px 0px 10px, #000 -10px 0px 10px, #000 0px 10px 10px, #000 0px -10px 10px, #000 0px 0px 20px, #000 0px 0px 30px;
+    font-size: 0.9rem;
+    color: #ECECEC;
+    text-shadow: #980000 0 0 15px, #980000 5px 0 5px, #980000 -5px 0 5px, #980000 0 3px 5px, #980000 0 -3px 5px, #333 10px 0 10px, #333 -10px 0 10px, #333 0 10px 10px, #333 0 -10px 10px, #333 0 0 15px;
 }
 
 .song-buttons {
-    width: 150px;
-    height: 25px;
-    background: indigo;
+    align-self: center;
+    width: 130px;
+    height: 22px;
+    background: #333333;
     border-radius: 5px;
+
 }

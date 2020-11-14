@@ -15,7 +15,6 @@
     position: relative;
     width: 108px;
     height: 40px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -25,7 +24,7 @@
     position: relative;
     height: 26px;
     width: 30px;
-    background: #AE0000;
+    background: #980000;
     padding-top: 1px;
     border-radius: 4px 0 0 4px ;
 }
@@ -34,17 +33,18 @@
     position: relative;
     height: 40px;
     width: 44px;
-    background: #C50000;
-    padding-top: 11px;
+    background: #B00000;
+    padding-top: 5px;
     border-radius: 7px;
-    padding-left: 2px;
+    padding-left: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.98);
 }
 
 .nextTrack {
     position: relative;
     height: 26px;
     width: 30px;
-    background: #AE0000;
+    background: #980000;
     padding-top: 1px;
     border-radius: 0 4px 4px 0;
 }
@@ -52,7 +52,7 @@
 .timeline {
     position: relative;
     width: 800px;
-    height: 28px;
+    height: 26px;
     background: #dae1e7;
     border-radius: 6px;
     margin-right: 20px;
@@ -76,4 +76,8 @@
 .button {
     display: inline-block;
     text-align: center;
+}
+
+.button :hover {
+    cursor: pointer;
 }
